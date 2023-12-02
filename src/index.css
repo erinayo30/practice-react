@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  background-image: linear-gradient(#D8c7ff, #19006c);
+}
+.correct{
+  background: green;
+  border: green;
+  color: antiquewhite;
+}
+.wrong{
+  background: red;
+  border: red;
+  color: antiquewhite;
+}
